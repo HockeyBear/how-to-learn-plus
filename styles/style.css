@@ -1,4 +1,20 @@
-.page {
+body{
+  font-family: 'Inter' sans-serif;
+  background-color: #f2f2f2;
+}
+div {
+  border: 1px solid red;
+}
+h4 {
+  color: #2f80ed;
+  font-size: 18px;
+  line-height: 1.2;
+  display: flex;
+  font-weight: normal;
+  margin: 0;
+  align-items: flex-start;
+}
+.content {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
   /* поэтому выше установлена минимальная ширина страницы */
@@ -29,3 +45,50 @@
   margin-right: 0;
   margin-top: 80px;
 }
+.description {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-family: 'Inter', sans-serif;
+}
+
+.two-columns {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  background-position: center;
+  flex-direction: row;
+}
+
+.two-columns__brief {
+  display: flex;
+  width: 175px;
+}
+
+.two-columns__paragraph {
+  margin: 0;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.two-columns__paragraph__span-accent {
+  margin: 30px 0;
+}
+
+.two-columns__main-text {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  min-width: 784px;
+  width: 80%;
+  gap: 30px;
+}
+.marginoff {
+  margin: auto;
+}
+.two-columns__span-accent {
+  font-weight: 600;
+}
+
+
