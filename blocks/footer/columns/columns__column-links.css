@@ -1,0 +1,6 @@
+.columns__column-links {
+  display: flex;
+  padding: 0;
+  flex-direction: column;
+  margin: 20px 0 16px;
+}
