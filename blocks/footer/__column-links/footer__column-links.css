@@ -4,6 +4,7 @@
   flex-direction: column;
   margin: 20px 0 16px;
   text-decoration: none;
+  list-style-type: none;
 }
 
 .footer__column-links a {
